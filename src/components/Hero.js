@@ -2,6 +2,8 @@
 import Header from "./Header";
 import HeroFooter from "./HeroFooter";
 import illustration from "../assets/hero-illustration.svg";
+import arrowright from "../assets/arrow-right.svg";
+
 function Hero() {
 	return (
 		<div className="hero section">
@@ -27,34 +29,13 @@ function Hero() {
 								banking and earn cash back on your everyday purchases.
 							</p>
 						</div>
-						<div>
-							<span>Open Account</span>
-							<span>
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									width="32"
-									height="31"
-									viewBox="0 0 32 31"
-									fill="none"
-								>
-									<path
-										d="M20.7112 19.205L22.7478 11.6042L15.147 9.56754"
-										stroke="#344054"
-										stroke-width="1.6"
-										stroke-miterlimit="10"
-										stroke-linecap="round"
-										stroke-linejoin="round"
-									/>
-									<path
-										d="M9.2522 19.3959L22.6128 11.6821"
-										stroke="#344054"
-										stroke-width="1.6"
-										stroke-miterlimit="10"
-										stroke-linecap="round"
-										stroke-linejoin="round"
-									/>
-								</svg>
-							</span>
+						<div className="d-flex justify-content-start py-4">
+							<div className="mt-10">
+								<button className="left py-2">Get Started</button>
+								<span className="right p-1">
+									<img src={arrowright} alt="arrow-right" />
+								</span>
+							</div>
 						</div>
 					</section>
 					<section>
@@ -63,8 +44,8 @@ function Hero() {
 						</div>
 					</section>
 				</main>
-				<HeroFooter />
 			</div>
+			<HeroFooter />
 		</div>
 	);
 }
