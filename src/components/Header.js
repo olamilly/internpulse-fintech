@@ -14,7 +14,7 @@ function Header(props) {
 				<a href="/">Help</a>
 			</div>
 			<div>
-				<span className="btn btn-sm btn-secondary-outline"> Sign In</span>
+				<button className="signInButton">Sign In</button>
 			</div>
 		</header>
 	);
