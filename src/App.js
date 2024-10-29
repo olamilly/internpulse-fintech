@@ -6,6 +6,7 @@ import Frame5 from "./components/Frame5";
 import Frame6 from "./components/Frame6";
 import Frame7 from "./components/Frame7";
 import "./App.css";
+import Footer from "./components/Footer";
 
 function App() {
 	return (
@@ -17,6 +18,7 @@ function App() {
 			<Frame5 />
 			<Frame6 />
 			<Frame7 />
+			<Footer />
 		</div>
 	);
 }

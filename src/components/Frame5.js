@@ -32,8 +32,8 @@ function Frame5() {
 						</div>
 					</div>
 				</div>
-				<div className="d-flex justify-content-start">
-					<div className="mt-10">
+				<div className="d-flex justify-content-start my-4">
+					<div className="my-3 mt-10 mt-80">
 						<button className="left py-2">Get Started</button>
 						<span className="right p-1">
 							<img src={arrowright} alt="arrow-right" />

@@ -27,7 +27,7 @@ function Frame3() {
 						</ul>
 					</div>
 					<div className="d-flex justify-content-start">
-						<div className="mt-10">
+						<div className="mt-10 mt-80">
 							<button className="left py-2">Get Started</button>
 							<span className="right p-1">
 								<img src={arrowright} alt="arrow-right" />

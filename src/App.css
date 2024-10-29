@@ -68,6 +68,12 @@ a {
 	position: relative;
 	z-index: 2;
 }
+.herobody > main {
+	margin-bottom: 20px;
+}
+.f7 > main {
+	margin-bottom: 4rem;
+}
 .bg-pattern {
 	/* opacity: 0.3; */
 	position: absolute;
@@ -185,6 +191,13 @@ a {
 	font-weight: 600;
 	border: none;
 	outline: none;
+}
+.mt-80 > .left {
+	background-color: transparent !important;
+	border: 1px solid black !important;
+}
+.mt-80 > .right {
+	background-color: #00b512 !important;
 }
 .mt-10 > .right {
 	left: 85%;
