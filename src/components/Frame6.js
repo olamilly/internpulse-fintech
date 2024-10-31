@@ -14,7 +14,7 @@ function Frame6() {
 				<div className="p-2 text-center">
 					<h1 className="mb-3p5">GET TO KNOW OUR CLIENTS</h1>
 
-					<div className="d-flex grid-container">
+					<div className="d-flex grid-container testimonials">
 						<img src={illustration1} alt="Frame5 Illustration" />
 						<img src={illustration2} alt="Frame5 Illustration" />
 						<img src={illustration3} alt="Frame5 Illustration" />
@@ -22,7 +22,7 @@ function Frame6() {
 				</div>
 				<div className="d-flex justify-content-start mt-4">
 					<div className="mt-3 mt-10 mt-80">
-						<button className="left py-2">Get Started</button>
+						<button className="left py-2">View More</button>
 						<span className="right p-1">
 							<img src={arrowright} alt="arrow-right" />
 						</span>

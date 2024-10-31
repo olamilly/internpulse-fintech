@@ -14,7 +14,7 @@ function Frame7() {
 								highlights and notes automatically Glose is the ultimate reading
 							</p>
 						</div>
-						<div className="d-flex justify-content-start">
+						<div className="d-flex justify-content-start f7btn">
 							<div className="mt-10">
 								<button className="left py-2">Get Started</button>
 								<span className="right p-1">

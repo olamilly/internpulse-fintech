@@ -5,7 +5,16 @@ function Frame4() {
 	return (
 		<div className="Frame4 frame">
 			<main className="d-flex justify-content-between align-items-center">
-				<section>
+				<section className="f4s1">
+					<img
+						alt="hero picture"
+						loading="lazy"
+						width="370"
+						height="550"
+						decoding="async"
+						style={{ color: "transparent" }}
+						src="/hero-section.png"
+					></img>
 					<div>
 						<img src={illustration} alt="Frame 4 Illustration" />
 					</div>

@@ -36,9 +36,18 @@ function Frame3() {
 					</div>
 				</section>
 				<section className="p-3">
-					<div>
+					<div className="l-img">
 						<img src={illustration} alt="Frame3 Illustration" />
 					</div>
+					<img
+						alt="Mobile app card settings screen"
+						loading="lazy"
+						width="100%"
+						height="500"
+						className="rounded"
+						style={{ color: "transparent" }}
+						src="/feature-phones.png"
+					></img>
 				</section>
 			</main>
 		</div>

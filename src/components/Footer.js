@@ -32,7 +32,7 @@ function Footer() {
 			</div>
 
 			{/* Navigation Links */}
-			<div className="d-flex flex-wrap gap-4 my-4 justify-content-center s-text">
+			<div className="links d-flex flex-wrap gap-4 my-4 justify-content-center s-text">
 				<p>Personal Loan</p>
 				<p>One Card</p>
 				<p>Savings</p>

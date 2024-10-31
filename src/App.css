@@ -20,7 +20,7 @@ h1 {
 	text-align: center;
 }
 section {
-	min-height: 570px;
+	/* min-height: 570px; */
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -29,6 +29,7 @@ section {
 	min-height: 100dvh;
 	flex-direction: column;
 	background-image: url("../public/heromainbg.png");
+	background-size: cover;
 	/* background-position: center; */
 }
 .Frame4 {
@@ -212,4 +213,131 @@ a {
 	font-weight: 600;
 	border: none;
 	outline: none;
+}
+@media (min-width: 876px) {
+	section {
+		min-height: 570px;
+	}
+	header {
+		justify-content: space-around;
+	}
+	.content {
+		display: flex;
+	}
+	.hero {
+		display: flex;
+		justify-content: space-between;
+	}
+}
+@media (max-width: 875px) {
+	html,
+	body {
+		min-width: 100dvw;
+		overflow-x: hidden;
+	}
+	.header-links {
+		display: none !important;
+	}
+	header {
+		justify-content: space-between !important;
+	}
+	.herobody > main,
+	.content,
+	.frame > main,
+	.Frame4 > main > section,
+	.act-con,
+	.frame7,
+	.frame7 > main,
+	.f7,
+	.s1 > .w-90 {
+		width: 100%;
+	}
+	.content {
+		padding: 1rem;
+	}
+	.headline > p {
+		width: 100% !important;
+		text-align: center;
+	}
+	.cta {
+		width: 100%;
+		justify-content: center !important;
+	}
+	.heroFooter {
+		flex-wrap: wrap;
+		gap: 20px;
+		justify-content: center;
+	}
+	.frame > main {
+		flex-direction: column;
+		margin-top: 2rem;
+	}
+	.l-img,
+	.f4s1 > div {
+		display: none;
+	}
+	img.rounded,
+	.f4s1 > img {
+		display: block !important;
+	}
+	.Frame4 > main > .s1 {
+		align-items: center !important;
+		justify-content: start !important;
+		margin-top: 3rem;
+		margin-bottom: 3rem;
+	}
+	.s1 {
+		width: 100%;
+	}
+	.s1 > .w-90 > h1 {
+		text-align: center;
+	}
+	p.s-text-dark {
+		text-align: center;
+	}
+	.testimonials {
+		flex-direction: column;
+	}
+	.grid-container > img,
+	.f2-i,
+	.midrow > img,
+	.b-row > img {
+		width: 96dvw;
+	}
+	.midrow,
+	.b-row {
+		flex-direction: column;
+	}
+	h1.w-60 {
+		width: 100%;
+		text-align: center;
+	}
+	.f7,
+	.frame7 {
+		margin: 0px;
+	}
+	.frame7 {
+		flex-direction: column-reverse;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.frame7 > .s1 {
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+	.f7btn {
+		width: 100%;
+		justify-content: center !important;
+	}
+	footer > .links {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+}
+
+img.rounded,
+.f4s1 > img {
+	display: none;
 }

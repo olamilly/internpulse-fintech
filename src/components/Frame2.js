@@ -7,7 +7,11 @@ function Hero() {
 			<main className="d-flex justify-content-center align-items-center">
 				<section className="p-3">
 					<div>
-						<img src={illustration} alt="Frame2 Illustration" />
+						<img
+							src={illustration}
+							alt="Frame2 Illustration"
+							className="f2-i"
+						/>
 					</div>
 				</section>
 				<section className="flex-column justify-content-center align-items-center h-100 p-3">

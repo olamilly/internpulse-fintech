@@ -14,18 +14,18 @@ function Frame5() {
 						<span>🔥SERVICES</span>
 					</div>
 				</div>
-				<div className="p-2 text-center">
+				<div className="p-2 text-center act-con">
 					<div className="d-flex justify-content-center align-items-center">
 						<h1 className="w-60">CAN HELP YOU ACHIEVE FINANCIAL SUCCESS</h1>
 					</div>
 
 					<div className="grid-container">
 						<img src={illustration1} alt="Frame5 Illustration" />
-						<div className="d-flex justify-content-between">
+						<div className="midrow d-flex justify-content-between">
 							<img src={illustration2} alt="Frame5 Illustration" />
 							<img src={illustration3} alt="Frame5 Illustration" />
 						</div>
-						<div className="d-flex justify-content-between">
+						<div className="b-row d-flex justify-content-between">
 							<img src={illustration4} alt="Frame5 Illustration" />
 							<img src={illustration5} alt="Frame5 Illustration" />
 							<img src={illustration6} alt="Frame5 Illustration" />
@@ -34,7 +34,7 @@ function Frame5() {
 				</div>
 				<div className="d-flex justify-content-start my-4">
 					<div className="my-3 mt-10 mt-80">
-						<button className="left py-2">Get Started</button>
+						<button className="left py-2">View More</button>
 						<span className="right p-1">
 							<img src={arrowright} alt="arrow-right" />
 						</span>
