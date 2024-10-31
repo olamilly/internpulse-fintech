@@ -286,11 +286,31 @@ a {
 		margin-top: 3rem;
 		margin-bottom: 3rem;
 	}
+	.frame3 > main {
+		flex-direction: column-reverse !important;
+	}
 	.s1 {
 		width: 100%;
 	}
+	.s1 > .tag {
+		align-self: center !important;
+	}
+	.f3btn {
+		width: 100%;
+		justify-content: center !important;
+		margin-bottom: 3rem;
+	}
+	.s1 > div.w-100 {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+	.s1 > div.w-100 > h1 {
+		text-align: center !important;
+	}
 	.s1 > .w-90 > h1 {
 		text-align: center;
+		padding-left: 1rem;
+		padding-right: 1rem;
 	}
 	p.s-text-dark {
 		text-align: center;
